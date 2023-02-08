@@ -1,7 +1,7 @@
 {
-  "name": "ltijs-sequelize",
+  "name": "lrnr-lti-sequelize",
   "version": "2.4.4",
-  "description": "Ltijs Sequelize Database Plugin",
+  "description": "LRNR LTI Sequelize Database Plugin",
   "main": "index.js",
   "engineStrict": true,
   "engines": {
@@ -14,10 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cvmcosta/ltijs-sequelize.git"
+    "url": "git+https://github.com/lrnfast/lrnr-lti-sequelize.git"
   },
   "keywords": [
-    "ltijs",
     "lti",
     "postgresql",
     "postgres",
@@ -29,9 +28,9 @@
   "author": "cvmcosta",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Cvmcosta/ltijs-sequelize/issues"
+    "url": "https://github.com/lrnfast/lrnr-lti-sequelize/issues"
   },
-  "homepage": "https://github.com/Cvmcosta/ltijs-sequelize#readme",
+  "homepage": "https://github.com/lrnfast/lrnr-lti-sequelize#readme",
   "dependencies": {
     "@babel/runtime": "^7.14.5",
     "debug": "^4.3.1",
