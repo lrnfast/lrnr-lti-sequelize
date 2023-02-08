@@ -8,7 +8,7 @@
     "node": ">=10.19.0"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha 'test/**/*.js' --recursive --reporter mocha-junit-reporter --timeout 60000 --exit",
     "build": "standard 'src/**/*.js' --fix && babel src -d dist",
     "start": "node index.js"
   },
