@@ -266,6 +266,9 @@ class Database {
         clientId: {
           type: Sequelize.TEXT
         },
+        customParams: {
+          type: Sequelize.JSON
+        },
         authEndpoint: {
           type: Sequelize.TEXT
         },
