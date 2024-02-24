@@ -82,8 +82,8 @@ class Database {
     _ExpireTime.set(this, {
       writable: true,
       value: {
-        idtoken: 3600 * 24 * 1000,
-        contexttoken: 3600 * 24 * 1000,
+        idtoken: 3600 * 24 * 30 * 3 * 1000,
+        contexttoken: 3600 * 24 * 30 * 3 * 1000,
         accesstoken: 3600 * 1000,
         nonce: 10 * 1000,
         state: 600 * 1000
